@@ -1,2 +1,5 @@
-package PACKAGE_NAME;public class ShopManagerException {
+public class ShopManagerException extends Throwable {
+    public ShopManagerException(String message) {
+        super(message);
+    }
 }
